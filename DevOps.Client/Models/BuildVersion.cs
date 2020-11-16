@@ -8,5 +8,7 @@ namespace Jmelosegui.DevOps.Client
         public string Id { get; set; }
 
         public string Name { get; set; }
+
+        public string SourceBranch { get; set; }
     }
 }

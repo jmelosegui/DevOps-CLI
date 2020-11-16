@@ -95,6 +95,7 @@ namespace Jmelosegui.DevOpsCLI.Commands
                                 {
                                     Id = artifact.Id,
                                     Name = artifact.Name,
+                                    SourceBranch = artifact.SourceBranch,
                                 },
                             });
                     }

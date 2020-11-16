@@ -16,5 +16,7 @@
 
         [JsonProperty(Required = Required.Always)]
         public string Name { get; set; }
+
+        public string SourceBranch { get; set; }
     }
 }
